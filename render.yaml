@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pequenos-grandes-amores
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: DATA_FILE
+        value: "/tmp/data.json"
