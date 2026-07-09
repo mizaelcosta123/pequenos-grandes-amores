@@ -1,0 +1,15 @@
+{
+  "name": "pequenos-grandes-amores",
+  "version": "1.0.0",
+  "description": "Dating app for short-statured people - standalone backend (no Puter)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "puppeteer-core": "^25.3.0"
+  }
+}
